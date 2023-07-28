@@ -812,6 +812,9 @@ footer span a:hover {
   border-left: 50px solid #d37192;
   line-height: 1em;
 }
+.container.contactInfo .box{
+  text-decoration:none;
+}
 .sci {
   position: relative;
   display: flex;
