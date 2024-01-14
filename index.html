@@ -12,6 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 </head>
 <body>
@@ -21,7 +23,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Port<span>folio.</span></a></div>
+            <div class="logo"><a href="#"><span>Portfolio</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -39,42 +41,59 @@
  
 
         <!-- home section start -->
-        <section class="home" id="home" >
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Kalparatna Mahajan</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="https://drive.google.com/file/d/1flb2F4I6YcoiOndJp2JsxiUz7iVVYuHE/view?usp=drivesdk">Hire me</a>
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hello, my name is</div>
+                    <div class="text-2">Kalparatna Mahajan</div>
+                    <div class="text-3">And I'm a <span class="typing"></span></div>
+                    <a href="https://drive.google.com/file/d/1t1NDv_gsPGLvMOA_9vvAfzr0H4tnn2iT/view?usp=drivedsk">Hire me</a>
+                </div>
             </div>
-        </div>         
-    </section>
+            
+        </section>
+        
 
-    <!-- Pacticles Background-->
-    <div id="particles-js"></div>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="particles.js"></script>
+    
        
     
     <!-- about section start -->
-    <section class="about" id="about" >
-       
-        <div class="max-width" >
-           
+    <section class="about" id="about">
+        <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
-                <div class="column left" >
-                    <img id="pro"  src="img/pr1.jpg" alt="">
+                <div class="column left">
+                    <div class="image-container">
+                        <div class="blob-shape"></div>
+
+                        <!--?xml version="1.0" standalone="no"?-->            
+                        <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <defs>
+                                <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                                    <stop id="stop1" stop-color="rgba(181.625, 25.831, 49.372, 1)" offset="0%"></stop>
+                                    <stop id="stop2" stop-color="rgba(227.86, 40.389, 40.389, 1)" offset="100%"></stop>
+                                </linearGradient>
+                                <mask id="mask1" mask-type="alpha">
+                                    <path fill="url(#sw-gradient)" d="M26.5,-29C34.3,-25.1,40.5,-16.7,40.3,-8.5C40.2,-0.3,33.7,7.7,27.6,13.7C21.5,19.7,15.8,23.8,9.4,26.5C2.9,29.2,-4.4,30.6,-11.5,29.1C-18.6,27.6,-25.6,23.2,-31.3,16.6C-37,9.9,-41.3,0.9,-41.2,-8.5C-41,-18,-36.4,-28,-28.8,-31.8C-21.2,-35.7,-10.6,-33.5,-0.6,-32.8C9.4,-32.1,18.8,-32.8,26.5,-29Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
+                                </mask>
+                            </defs>
+                            <g mask="url(#mask1)">
+                                <path fill="url(#sw-gradient)" d="M26.5,-29C34.3,-25.1,40.5,-16.7,40.3,-8.5C40.2,-0.3,33.7,7.7,27.6,13.7C21.5,19.7,15.8,23.8,9.4,26.5C2.9,29.2,-4.4,30.6,-11.5,29.1C-18.6,27.6,-25.6,23.2,-31.3,16.6C-37,9.9,-41.3,0.9,-41.2,-8.5C-41,-18,-36.4,-28,-28.8,-31.8C-21.2,-35.7,-10.6,-33.5,-0.6,-32.8C9.4,-32.1,18.8,-32.8,26.5,-29Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
+                                <image class="newImage" x="15%" y="3%" width="60%" height="100%" href="Img/DpImage.jpg"/>
+                            </g>
+                        </svg>
+
+                    </div>
                 </div>
                 <div class="column right">
                     <div class="text">I'm Kalparatna and I'm a <span class="typing-2"></span></div>
-                    <p>I am currently Persuing my B.Tech in Information Technology at SVKM IOT, Dhule. I have already Completed my Diploma in Mechanical Engineering at Government Polytechnic, Jalgaon. Currently looking for opportunities in Software Indusrtries to direct the career towards growth and success.</p>
-                    <a href="https://drive.google.com/file/d/1flb2F4I6YcoiOndJp2JsxiUz7iVVYuHE/view?usp=drivesdk">Download CV</a>
+                    <p>I am currently pursuing my B.Tech in Information Technology at SVKM IOT, Dhule. I have already Completed my Diploma in Mechanical Engineering at Government Polytechnic, Jalgaon. Currently looking for opportunities in Software Industries to direct the career towards growth and success.</p>
+                    <a href="https://drive.google.com/file/d/1t1NDv_gsPGLvMOA_9vvAfzr0H4tnn2iT/view?usp=drivedsk">Download CV</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    
 
        
     <!-- Education  -->
@@ -87,33 +106,33 @@
                         <i class="fas fa-school"></i>
                         <div class="text">B.Tech</div>
                         <p>Persuing B.Tech at SVKM IOT, Dhule</p>
-                        <p style="color:blueviolet">Duration: 2022 - ____</p>
+                        <p style="color:rgb(245, 245, 245)">Duration: 2022 - ____</p>
                     </div>
                     <br>
-                    <img id="sv"  src="img/svkm.jpg" width="60%">
+                    <img id="sv"  src="Img/svkm.jpg" width="60%">
                 </div>
 
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-building"></i>
                         <div class="text">Diploma</div>
-                        <p>Completed Diploma in Mechanical Engineering at Government Polytechnic Jalgaon.</p>
-                        <p style="color:blueviolet">Duration: 2019 - 2022</p>
-                        <p style="color:blueviolet">Aggregate Percentage: 84.10%</p>
+                        <p> Mechanical Engineering at Government Polytechnic Jalgaon.</p>
+                        <p style="color:rgb(255, 255, 255)">Duration: 2019 - 2022</p>
+                        <p style="color:rgb(255, 255, 255)">Aggregate Percentage: 84.10%</p>
                     </div>
                     <br>
-                    <img id="d"  src="img/DP.jpg" >
+                    <img id="d"  src="Img/DP.jpg" >
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-home"></i>
                         <div class="text">School</div>
-                        <p>Completed my secondary education at Sarvodaya Madhyamik Vidyalaya, Gudhe</p>
-                        <p style="color:blueviolet">Passing Year : 2019</p>
-                        <p style="color:blueviolet">Percentage : 83.80%</p>
+                        <p>Sarvodaya Madhyamik Vidyalaya, Gudhe</p>
+                        <p style="color:rgb(255, 255, 255)">Passing Year : 2019</p>
+                        <p style="color:rgb(255, 255, 255)">Percentage : 83.80%</p>
                     </div>
                     <br>
-                    <img id="sc" src="img/sc.jpg" width="80%">
+                    <img id="sc" src="Img/sc.jpg" width="80%">
                 </div>
                </div>
             </div>
@@ -121,16 +140,29 @@
     </section>
    
     <!-- skills section start -->
+
     <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>.....</p>
-                    <a href="#">Read more</a>
+                        <p>As a passionate developer, I've honed my skills in various technologies and frameworks. My expertise extends to creating dynamic and visually appealing web applications. I have hands-on experience with:</p>
+                        <ul>
+                            <li>Front-end technologies like HTML, CSS</li>
+                            <li>Back-end languages such as PHP, Python, C, C++</li>
+                            <li>Database management with MySQL</li>
+                            <li>Data analysis using Python libraries like Pandas, Numpy, Matplotlib, Seaborn</li>
+                            <li>Web frameworks including Flask and Django</li>
+                            <li>API testing with Postman</li>
+                            <li>Cloud Computing on AWS (Amazon Web Services)</li>
+                            <li>Machine Learning</li>
+                            <!-- Add any other relevant skills here -->
+                        </ul>
+                        <a href="#">Read more</a>
                 </div>
                 <div class="column right">
+                    <!-- Existing skills bars -->
                     <div class="bars">
                         <div class="info">
                             <span>HTML, CSS</span>
@@ -166,41 +198,67 @@
                         </div>
                         <div class="line java"></div>
                     </div>
+    
+                    <!-- Additional skills bars -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>Database: MySQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python Libraries: Pandas, Numpy, Matplotlib, Seaborn</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line python-libraries"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python Web Frameworks: Flask, Django</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line python-frameworks"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+      
 
-    <!-- teams section start -->
+
+
+    <!-- Projects section start -->
     <section class="teams" id="projects">
         <div class="max-width">
             <h2 class="title"> My Projects</h2>
             <div class="carousel owl-carousel">  
                 <div class="card">
                     <div class="box">
-                        <img src="img/Iris.jpg" alt="">
-                        <div class="text">Iris Flower classification</div>
-                        <p>Iris flower classification is a very popular machine learning project. The iris dataset contains three classes of flowers, Versicolor, Setosa, Virginica, and each class contains 4 features, ‘Sepal length’, ‘Sepal width’, ‘Petal length’, ‘Petal width’. The aim of the iris flower classification is to predict flowers based on their specific features..</p>
+                        <img src="img/Dream11.jpg" alt="">
+                        <div class="text">Dream 11 IPL Team Prediction</div>
+                        <p>Built a Python Web Application Using Flask Frame which able to Predict IPL dream 11 Team Using Machine Learning.</p>
                     </div>
-                    <a href="https://github.com/Kalparatna/LGM_DATA-SCIENCE_T1_Iris-Flower-Classification-using-ML">Read More</a>
+                    <a href="https://github.com/Kalparatna/IPL-Team-Predictor-Web-Application">Read More</a>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="img/stk.jpg" alt="">
-                        <div class="text">Stock Market Prediction Using stacked LSTM</div>
-                        <p> In this project, an LSTM model was built to forecast stock prices on the basis of their past values. Accuracy of the model was checked by performing a train-test check. Finally, the stock values of the next 30 days were predicted using the built model.</p>
+                        <img src="img/Google.jpg" alt="">
+                        <div class="text">GlobalSpeak</div>
+                        <p>Python Web Application Which Able to convert Video, audio and text language to another language.</p>
                     </div>
-                    <a href="https://github.com/Kalparatna/LGM_DATA-SCIENCE-_T2_Stock_Market_Prediction_Using_Stacked_LSTM">Read More</a>
+                    <a href="https://github.com/Kalparatna/GlobalSpeak">Read More</a>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="img/I2K.jpg" alt="">
-                        <div class="text">Imgage to Sketch Converter using Python</div>
+                        <img src="img/camera.jgp" alt="">
+                        <div class="text">CCTV Survillience system</div>
                         <br> 
-                        <p>In this project diffrent libraries like OpenCV() and Numpy Etc. r</p>
+                        <p>Built the Python Machine Learning CCTV survillience system, Which able to detect abnormal activities like Accident, Fight, Crime, Theft, Abuse etc. and able tp inform the Police about the activity.</p>
                         <br>
                     </div>
-                    <a href="https://github.com/Kalparatna/LGM_DATA-SCIENCE_T4_Imgage2Sketch-using-python">Read More</a>
+                    <a href="https://github.com/Kalparatna/CCTV-Surveillance">Read More</a>
                 </div>
                 <div class="card">
                     <div class="box">
@@ -289,8 +347,7 @@
 -->
 <section class="contact" id="contact">
     <div class="content">
-        <h2>Contact Us</h2>
-        <p>--------------</p>
+        <h2>Contact</h2>
     </div>
     <div class="container">
         <div class="contactInfo">
@@ -298,7 +355,7 @@
                 <div class="icon"><ion-icon name="location-outline"></ion-icon></div>
                 <div class="text">
                     <h3>Address</h3>
-                    <p>At Post Dhule, Maharashtra  </p>
+                    <p>At Post Dhule, Maharashtra, India  </p>
                 </div>
             </div>
             <div class="box">
@@ -309,12 +366,17 @@
                 </div>
             </div>
             <div class="box">
-                <div class="icon"><ion-icon name="mail-outline"></ion-icon></div>
-                <div class="text">
-                    <h3>Email</h3>
-                    <p><a href="mailto:kalparatna223@gmail.com">kalparatna223@gmail.com</a></p>
-                </div>
+                <a href="mailto:kalparatna223@gmail.com">
+                    <div class="icon mail-icon"><ion-icon name="mail-outline"></ion-icon></div>
+                    <div class="text1">
+                        <h3>Email</h3>
+                        <p>kalparatna223@gmail.com</p>
+                    </div>
+                </a>
             </div>
+            
+              
+              
             <h2 class="txt">Connect with us</h2>
             <ul class="sci">
                 <li><a href="https://www.facebook.com/bhausaheb.mahajan.353"><ion-icon name="logo-facebook"></ion-icon></a></li>
@@ -325,8 +387,7 @@
                 <li><a href="https://github.com/Kalparatna"><ion-icon name="logo-github"></ion-icon></a></li>
             </ul>
         </div>
-
-        <div class="contactForm">
+<!-- <div class="contactForm">
             <form action="https://formsubmit.co/kalparatna2003@gmail.com" method="POST">
                 <h2>Send Message</h2>
                 <div class="inputBox">
@@ -345,10 +406,32 @@
                     <input type="submit" value="Send">
                 </div>
             </form>
-        </div>
+        </div>-->
+
+        <div class="contactForm">
+    <form id="customContactForm">
+      <h2>Send Message</h2>
+      <div class="inputBox">
+        <input type="text" name="name" required="required">
+        <span>Full Name</span>
+      </div>
+      <div class="inputBox">
+        <input type="text" name="email" required="required">
+        <span>Email</span>
+      </div>
+      <div class="inputBox">
+        <textarea name="msg" required="required"></textarea>
+        <span>Type your Message...</span>
+      </div>
+      <div align="center" class="inputBox">
+        <input type="submit" value="Send">
+      </div>
+    </form>
+  </div>
     </div>
 </section>
-    
+
+<script src="custom-script.js"></script>    
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
